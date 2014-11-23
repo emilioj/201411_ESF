@@ -1,0 +1,163 @@
+<!doctype html>
+
+<!-- Presentación baseada en impress.js [1] que fusila esta feita por Le Zhang
+     'IntroToNode Presentation for Node Boston Meetup 3/27/12' [2][3].
+     Podes usala para o que desexes baixo os termos dunha CC BY-SA [4]
+
+[1] http://bartaz.github.io/impress.js
+[2] http://introtonode.herokuapp.com
+[3] https://github.com/leisms/IntroToNode
+[4] http://creativecommons.org/licenses/by-sa/3.0/deed.gl
+ -->
+
+<html lang="gl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>O Pequeno é Fermoso: SwL e Soberanía Tecnolóxica</title>
+
+    <meta name="description" content="Presentación sobre SwL e soberanía tecnolóxica na xornada de ESF do 22/11/14" />
+    <meta name="author" content="Emilio J. Padrón" />
+
+    <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+    <link href="css/SwLeSoberania.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="misc/logo_gpul.png" />
+  </head>
+
+  <body class="impress-not-supported">
+
+    <div class="fallback-message">
+      <p>O teu navegador <b>non soporta algunhas das caracter&iacute;sticas necesarias</b> para a perfecta
+        visualizaci&oacute;n desta presentaci&oacute;n, baseada en <i>impress.js</i>, polo que
+        est&aacute;s a ver unha versi&oacute;n <b>simple</b> da mesma.</p>
+    </div>
+
+    <div id="impress">
+
+      <div id="title" class="step" data-x="-500" data-y="50">
+        <h2>O Pequeno é Fermoso</h2>
+        <h1>Software Libre e Soberanía Tecnolóxica</h1>
+        <h3>Emilio J. Padrón González &#60;emilioj@gpul.org&#62; <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.gl">&nbsp;&nbsp;<img alt="Licenza de Creative Commons" style="border-width:0" src="misc/cc.png" /></a></h3>
+      </div>
+
+      <div id="agenda" class="step" data-x="500" data-y="50">
+        <h2>O menú de hoxe:</h2>
+        <h3>Motivación: libre e aberto vs. privativo e pechado</h3>
+        <h3>Software Libre</h3>
+        <h3>SwL: Distintas vertentes</h3>
+        <h3>Formatos e Open Data</h3>
+        <h3>Referencias</h3>
+      </div>
+
+      <div class="cube">
+
+        <div class="topFace step" data-x="0" data-y="-125" data-z="-1005" data-rotate-x="60" data-rotate-y="0" data-rotate-z="45" data-scale="0.5">
+          <h1>Motivación</h1>
+          <p>Tecnoloxía: posesión ou aluguer/préstamo?</p>
+          <ul>
+            <li>independencia tecnolóxica</li>
+            <li>control da túa informática</li>
+            <li>compartir: coñecemento libre</li>
+          </ul>
+          <h2>Empoderamento tecnolóxico!</h2>
+          <h3>=> SwL é unha tecnoloxía apropiada: favorece sustentabilidade e equidade</h3>
+        </div>
+
+        <div class="leftFace step" data-x="-125" data-y="90" data-z="-985" data-rotate-x="-30" data-rotate-y="-45" data-rotate-z="0" data-scale="0.5">
+          <h1>Software Libre</h1>
+          <p>4 liberdades<p>
+            <ul>
+              <li>Usalo con calquera propósito</li>
+              <li>Estudar como funciona e adaptalo ás necesidades</li>
+              <li>Redistribuír copias</li>
+              <li>Melloralo e facer públicas as melloras</li>
+            </ul>
+          <h2>Free as in freedom, not as in 'free beer'</h2>
+        </div>
+
+        <div class="rightFace step" data-x="125" data-y="90" data-z="-985" data-rotate-x="-30" data-rotate-y="45" data-rotate-z="0" data-scale="0.5">
+          <h5>Vertente ética</h5>
+          <p>Acceso ao coñecemento:</p>
+          <h4>academia vs. monasterio</h4>
+          <ul>
+            <li>compartir: coñecemento libre</li>
+            <li>cultura do ben común</li>
+            <li>garantir os dereitos dos usuarios</li>
+          </ul>
+          <h6>Vertente social</h6>
+          <p>Soberanía tecnolóxica:</p>
+          <ul>
+            <li>Baixo custo e <i>patent-free</i></li>
+            <li>Desenvolvemento tecnolóxico local</li>
+            <li>Localización: adaptación e lingua</li>
+          </ul>
+        </div>
+
+        <div class="backRightFace step" data-x="125" data-y="-35" data-z="-1200" data-rotate-x="-30" data-rotate-y="135" data-rotate-z="0" data-scale="0.5">
+          <h7>Vertente económica</h7>
+          <p>Para un cliente (admin. incluída)<p>
+            <ul>
+              <li>Aforro en licenzas</li>
+              <li>Independencia tecnolóxica</li>
+              <li>Control real da súa informática: seguridade, personalización, etc.</li>
+            </ul>
+          <p>Modelo de negocio</p>
+            <ul>
+              <li>Baseado en desenvolvemento e servizos, non en licenzas</li>
+              <li>Favorece tecido tecnolóxico local</li>
+            </ul>
+        </div>
+
+        <div class="backLeftFace step" data-x="-125" data-y="-35" data-z="-1200" data-rotate-x="-30" data-rotate-y="225" data-rotate-z="0" data-scale="0.5">
+          <h1>Datos</h1>
+          <p>Únicos formatos que nos interesan:</p>
+          <ul>
+            <li>Estándares</li>
+            <li>Abertos</li>
+            <li>Libres de patentes</li>
+          </ul>
+          <h1>Open Data</h1>
+          <ul>
+            <li>Transparencia e accesibilidade aos datos</li>
+            <li>Uso de formatos estándares abertos</li>
+          </ul>
+        </div>
+
+        <div class="bottomFace step" data-x="0" data-y="180" data-z="-1180" data-rotate-x="60" data-rotate-y="180" data-rotate-z="45" data-scale="0.5">
+          <h1>Referencias</h1>
+          <ul>
+            <li><i>La ética del hacker</i>, Pekka Himanen (2002). Ed. Destino</li>
+            <li><i>El derecho a leer</i>, Richard M. Stallman</li>
+            <li><i>Cambiar las gafas para mirar el mundo</i>. Libros en Acción</li>
+          </ul>
+          <br />
+          <ol>
+            <li>GPUL: <a href="http://www.gpul.org">www.gpul.org</a></li>
+            <li>ESF: <a href="http://galicia.isf.es">galicia.isf.es</a></li>
+          </ol>
+        </div>
+      </div>
+
+      <div id="conclu" class="step" data-x="750" data-y="400">
+        <h2>Conclusións</h2>
+        <p>Existen tecnoloxías que favorecen a sostibilidade e a equidade</p>
+          <ul><li>=> o SwL é unha delas</li></ul>
+        <p>A tecnoloxía debe estar controlada pola comunidade antes que polo mercado</p>
+          <ul><li>=> o SwL permite ese control, ademais de favorecer o tecido tecnolóxico local</li></ul>
+        <p>Para o usuario (particular, administración, peme ou gran empresa) todo son vantaxes</p>
+      </div>
+
+      <div id="end" class="step" data-x="-200" data-y="400">
+        Graciñas pola atención
+
+        <h3>ecoloxismo</h3><h3>feminismo</h3><h3>pacifismo</h3><h3>.. e software libre!</h3>
+      </div>
+    </div>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
