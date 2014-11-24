@@ -170,7 +170,8 @@ body     { pointer-events: none; }
 }
 
 #agenda {
-    width:700px;
+    width:650px;
+    height:610px;
     text-align:right;
 }
 #agenda h2 {
@@ -183,21 +184,19 @@ body     { pointer-events: none; }
 
 /* Conclu Slide */
 #conclu {
-    margin-top:200px;
-    width:900px;
-    height:350px;
-    font-size:60px;
-    font-weight:bold;
+    /* margin-top:200px; */
+    width:990px;
+    height:275px;
 }
 #conclu h2 {
     font-size:50px;
     font-weight:bold;
 }
 #conclu p {
-    font-size:25px;
+    font-size:35px;
 }
 #conclu ul {
-    font-size:21px;
+    font-size:30px;
     margin-left:30px;
 }
 
