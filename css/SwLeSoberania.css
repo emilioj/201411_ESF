@@ -64,13 +64,7 @@ body {
     
     min-height: 740px;
     background-color: black;
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(115,199,63)), to(#53992D));
-    background: -webkit-radial-gradient(rgb(115,199,63), #53992D);
-    background:    -moz-radial-gradient(rgb(115,199,63), #53992D);
-    background:      -o-radial-gradient(rgb(115,199,63), #53992D);
     background:         radial-gradient(rgb(115,199,63), #53992D);
-
-    -webkit-font-smoothing: antialiased;
 }
 
 b, strong { font-weight: bold }
@@ -93,10 +87,6 @@ a:hover {
     width: 900px;
     padding: 40px;
 
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing:    border-box;
-    -ms-box-sizing:     border-box;
-    -o-box-sizing:      border-box;
     box-sizing:         border-box;
 
     font-family: 'Pontano Sans', helvetica, sans-serif;
@@ -106,10 +96,6 @@ a:hover {
 }
 
 .step {
-    -webkit-transition: opacity 1s;
-    -moz-transition:    opacity 1s;
-    -ms-transition:     opacity 1s;
-    -o-transition:      opacity 1s;
     transition:         opacity 1s;
 }
 
